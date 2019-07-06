@@ -9,6 +9,7 @@ from keras.layers import Dense
 # PART 1 Intialising the CNN
 classifier = Sequential()
 
+#hello this is testing
 #  STEP1:CONVOLUTION
 classifier.add(Conv2D(32,3, 3, input_shape = ( 64,64,3), activation = 'relu'))
 # 32 is the no. of filter used
